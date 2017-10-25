@@ -1,0 +1,15 @@
+grebers
+gerbers
+*.zip
+*-bak
+*.bak
+*.bck
+*-cache.lib
+*#
+*~
+_saved_*
+_autosave*
+build
+*.log
+*.raw
+*.plt
