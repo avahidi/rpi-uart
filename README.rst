@@ -7,14 +7,12 @@ This is a serial interface board for the Raspberry Pi. It lets you to power and 
 
 
 .. image:: doc/before.jpg
-    :width: 400px
     :alt: connecting to the rpi using a serial to USB cable
 
 . . . to this:
 
 
 .. image:: doc/after.jpg
-    :width: 400px
     :alt: connecting to the rpi using this board
 
 
@@ -34,11 +32,12 @@ You can order the bare PCB from pcbs.io using
 `this link <https://pcbs.io/order/08043673da1c775680bd1953e54f6a0dae2b9cd861ef7ed70277be7d07e429cb>`_.
 They provide 4 boards of good quality for $5.20 including shipping:
 
-.. image:: doc/top.png
-    :width: 200px
-.. image:: doc/bottom.png
-    :width: 200px
 
+.. image:: doc/top.png
+    
+.. image:: doc/bottom.png
+
+    
 
 Operations modes
 ----------------
