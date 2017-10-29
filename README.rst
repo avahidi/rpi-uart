@@ -24,19 +24,15 @@ Open hardware
 
 The PCB was developed using KiCad and is published under the CERN Open Hardware License v1.2.
 
+.. image:: doc/pcb.jpg
+
 Some footprints have been modified to eliminate oval plated holes which may be expensive to manufacture.
-I have also tried to make the design easy to solder, although you still may find the fine-pitche USB connector a bit challenging.
-The CH340g IC was chosen to avoid depending on FTDI or counterfeit FTDI.
+I have also tried to make the design easy to solder, although you may still find the fine-pitch USB connector a bit challenging.
+The CH340g IC was chosen to avoid depending on FTDI or counterfeit FTDI chips.
 
 You can order the bare PCB from pcbs.io using
 `this link <https://pcbs.io/order/08043673da1c775680bd1953e54f6a0dae2b9cd861ef7ed70277be7d07e429cb>`_.
 They provide 4 boards of good quality for $5.20 including shipping:
-
-
-.. image:: doc/top.png
-    
-.. image:: doc/bottom.png
-
     
 
 Operations modes
