@@ -1,9 +1,10 @@
 
-
 rpi-uart
 ========
 
-This is a serial interface board for the Raspberry Pi. It lets you to power and talk to the board using only a micro-USB cable. Hence you can go from this mess
+
+This UART board for the Raspberry Pi, is one of those Sunday morning projects that turned out to be quite useful.
+It lets you to power and talk to the board using only a micro-USB cable. Hence you can go from this mess
 
 
 .. image:: doc/before.jpg
@@ -29,11 +30,6 @@ The PCB was developed using KiCad and is published under the CERN Open Hardware 
 Some footprints have been modified to eliminate oval plated holes which may be expensive to manufacture.
 I have also tried to make the design easy to solder, although you may still find the fine-pitch USB connector a bit challenging.
 The CH340g IC was chosen to avoid depending on FTDI or counterfeit FTDI chips.
-
-You can order the bare PCB from pcbs.io using
-`this link <https://pcbs.io/order/08043673da1c775680bd1953e54f6a0dae2b9cd861ef7ed70277be7d07e429cb>`_.
-They provide 4 boards of good quality for $5.20 including shipping:
-    
 
 Operations modes
 ----------------
@@ -73,7 +69,7 @@ If you want to power it from the same cable, you will also need these::
 Full 5.0v mode
 ~~~~~~~~~~~~~~~
 
-If you are using this as a stand-alone USB-to-serial converter and WITHOUT a raspberry pi 
+If you are using this as a stand-alone USB-to-serial converter and WITHOUT a raspberry pi
 and want to have 5.0v transmit and receive signals you will need to bridge the 5.0 and 3.3 rails::
 
      component |          type          | notes
@@ -106,5 +102,5 @@ The following components are not needed and should not be populated::
     ========================================================
      D4        | protection SMD didoe   | protection for cheap regulators
      R3, R4    | 10K 0805 SMD resistors | for RX/TX LED
-     D2, D3    | 10805 SMD LEDs         | RX/TX LED
+     D2, D3    | 0805 SMD LEDs          | RX/TX LED
 
